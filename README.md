@@ -28,7 +28,7 @@ Yes
 example)
  src/main/Main.java
 
-##Sprint 2
+## Sprint 2
 
 For my project I would like to use to the console to create a Pokemon inspired turn-based battle game written in Java.
 
@@ -42,6 +42,6 @@ The player fights an enemy in a loop where they can choose actions such as attac
 
 For my libraries I plan on using the Java Standard Library (Scanner, Random)
 
-
-
-
+So far I have created and implemented my core classes: Player, Move, Pokemon, GameManager.
+A functional game loop was created.
+User input will be handled through the console.
