@@ -1,9 +1,12 @@
 
 
-public class Main {
+package main;
 
-    public static void main(String[] args)
-    {
-        System.out.println("Hello, World");
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Welcome to the Pokemon Battle Game!");
+
+        GameManager gameManager = new GameManager();
+        gameManager.startGame();
     }
 }

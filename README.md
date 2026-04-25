@@ -1,5 +1,5 @@
 # CSC-350-Project
-
+##Sprint 1
 – Are you in a Group?
 
 No
@@ -26,3 +26,21 @@ Yes
 
 – Where is the entry point to your project? (src/main/Main.java for
 example)
+
+##Sprint 2
+
+For my project I would like to use to the console to create a Pokemon inspired turn-based battle game written in Java.
+
+The player fights an enemy in a loop where they can choose actions such as attacking or healing. The enemy automatically attacks back after each turn.
+
+### Planned Features
+- Starter Pokemon selection
+- Basic battle system
+- Health tracking
+- Single move (Tackle)
+
+For my libraries I plan on using the Java Standard Library (Scanner, Random)
+
+
+
+
