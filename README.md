@@ -26,7 +26,7 @@ Yes
 
 – Where is the entry point to your project? (src/main/Main.java for
 example)
-src/main/Main.java
+ src/main/Main.java
 
 ##Sprint 2
 
