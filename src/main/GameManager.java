@@ -5,12 +5,12 @@ import java.util.Scanner;
 public class GameManager {
     private Player player;
     private Pokemon enemyPokemon;
-    private Move tackle;
+    private MoveStrategy tackle;
     private Scanner scanner;
 
     public GameManager() {
         scanner = new Scanner(System.in);
-        tackle = new Move("Tackle");
+        tackle = new MoveStrategy("Tackle");
     }
 
     public void startGame() {

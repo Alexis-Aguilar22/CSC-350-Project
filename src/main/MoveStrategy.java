@@ -2,11 +2,11 @@ package main;
 
 import java.util.Random;
 
-public class Move {
+public class MoveStrategy {
     private String name;
     private Random random;
 
-    public Move(String name) {
+    public MoveStrategy(String name) {
         this.name = name;
         this.random = new Random();
     }
