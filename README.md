@@ -73,7 +73,6 @@ When the player ends the game they are given their final statistics.
 
 #### Design Patterns used
 
-### Design Patterns Implemented
 
 1. Singleton Pattern
    The Singleton pattern is implemented through the GameManager class. Only one GameManager instance exists during program execution, providing centralized control of the game flow.
