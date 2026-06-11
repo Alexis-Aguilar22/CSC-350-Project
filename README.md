@@ -63,3 +63,27 @@ The final project will demonstrate a turn-based Pokemon-inspired battle system. 
 ### Problems Encountered
 
 Refactoring the original battle system to use interfaces required modifying the attack system and Pokemon construction process. Additional abstraction was added to reduce tight coupling between classes.
+
+
+## Final Submission
+This project is a console-based Pokemon inspired turn based game written in Java. The player enters their name,
+ selects a starter pokemon, and can then start battle different pokemon they encounter. Through battling their pokemon gains experience points and can level up, eventually learning a new move.
+Players can choose to visit a pokemon center to fully heal after battling.
+When the player ends the game they are given their final statistics.
+
+#### Design Patterns used
+
+### Design Patterns Implemented
+
+1. Singleton Pattern
+   The Singleton pattern is implemented through the GameManager class. Only one GameManager instance exists during program execution, providing centralized control of the game flow.
+2. Factory Pattern
+   The Factory pattern is implemented through PokemonFactory. Pokemon objects are created through factory methods instead of being instantiated directly throughout the application.
+3. Strategy Pattern
+   The Strategy pattern is implemented through the MoveStrategy interface and move classes such as TackleMove, EmberMove, WaterGunMove, and VineWhipMove. Pokemon can change attack behavior without modifying the Pokemon class itself.
+4. Command Pattern
+   The Command pattern is implemented through the BattleCommand interface and concrete commands such as AttackCommand and HealCommand. Battle actions are encapsulated as command objects.
+5. Observer Pattern
+   The Observer pattern is implemented through BattleObserver and ConsoleBattleObserver. Pokemon notify observers whenever important battle events occur, such as taking damage, healing, gaining experience, or leveling up.
+6. State Pattern
+   The State pattern is implemented through the BattleState interface and concrete states including PlayerTurnState, EnemyTurnState, and GameOverState. The game tracks and displays the current battle state during execution.
