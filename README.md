@@ -45,3 +45,21 @@ For my libraries I plan on using the Java Standard Library (Scanner, Random)
 So far I have created and implemented my core classes: Player, Move, Pokemon, GameManager.
 A functional game loop was created.
 User input will be handled through the console.
+
+## Sprint 3
+
+### Design Patterns Implemented
+
+#### Strategy Pattern
+Implemented through the MoveStrategy interface and TackleMove class. Pokemon objects delegate attack behavior to a move strategy.
+
+#### Factory Pattern
+Implemented through PokemonFactory. Pokemon creation is centralized and GameManager does not directly instantiate Pokemon objects.
+
+### Planned Final Submission
+
+The final project will demonstrate a turn-based Pokemon-inspired battle system. Players will select a starter Pokemon and battle wild Pokemon using multiple attack strategies. The project will demonstrate six design patterns while maintaining a modular and extensible architecture.
+
+### Problems Encountered
+
+Refactoring the original battle system to use interfaces required modifying the attack system and Pokemon construction process. Additional abstraction was added to reduce tight coupling between classes.

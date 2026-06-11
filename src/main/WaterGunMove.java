@@ -1,23 +1,22 @@
-
 package main;
 
 import java.util.Random;
 
-public class TackleMove implements MoveStrategy {
+public class WaterGunMove implements MoveStrategy {
 
     private Random random;
 
-    public TackleMove() {
+    public WaterGunMove() {
         random = new Random();
     }
 
     @Override
     public int useMove() {
-        return random.nextInt(5) + 4;
+        return random.nextInt(6) + 8;
     }
 
     @Override
     public String getMoveName() {
-        return "Tackle";
+        return "Water Gun";
     }
 }
